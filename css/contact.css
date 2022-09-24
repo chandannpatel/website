@@ -1,0 +1,26 @@
+.contact-content{
+        height: 100vh;
+        /*background-color: skyblue;*/
+        padding: 9px;
+        /*display: flex;*/
+        margin-top: 10px;
+        position: relative;
+        color: white;
+        background-image: url(../img/home.jpg);
+        position: relative;
+        overflow: hidden;
+     }
+    
+.form-box input,textarea{
+    width: 44vw;
+    height: 2vw;
+    margin: 3px;
+    font-family: var(--font1);
+    font-size: 18px;
+    border: 2px solid rgb(174, 0, 255);
+    border-radius: 4px;
+}
+
+.content-form{
+
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+
+:root {
+    --main-bg-color: red;
+    --font1: 'Roboto', sans-serif;
+    --font2: 'Hind Siliguri', sans-serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+
+}
+
+.font2 {
+    font-family: var(--font2);
+
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+.mx-1{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+.my-2{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.btn {
+    padding: 0px 8px;
+    font-size: 16px;
+    border: 3px solid lightcyan;
+    border-radius: 12px;
+    font-family: var(--font1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: white;
+    background: var(--main-bg-color);
+    font-weight: bolder;
+}
+
+.form-input {
+    padding: 2px 2px;
+    font-size: 16px;
+    border: 2px solid lightcyan;
+    border-radius: 8px;
+    margin: 0 2px;
+    font-family: var(--font1);
+}

@@ -1,0 +1,167 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.navigation {
+   font-family: var(--font2);
+   margin: 30px;
+   /*height: 74px;*/
+   /*background-color: red;*/
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nav-left {
+   font-size: 20px;
+   display: flex;
+}
+
+.nav-left span{
+   font-size: 30px;
+   padding-top: 0px;
+   display: flex;
+}
+/* font-color: red*/
+.nav-left ul {   
+   display: flex;
+   align-items: center;
+   margin: 0px 40px;
+   font-size: 21px;
+   font-weight: bold;
+}
+
+.nav-left ul li {
+   list-style: none;
+   margin: 0 14px;
+   font-family: var(--font2);
+   transition: all 1s ease-in-out;
+}
+
+.nav-left ul li a {
+   text-decoration: none;
+   color: black ;
+   transition: all 1s ease-in-out;
+}
+
+.nav-left ul li :hover {
+   color: var(--main-bg-color);
+   font-weight: bolder;
+}
+
+.content {
+   height: 100%;
+   /*background-color: skyblue;*/
+   padding: 9px;
+   display: flex;
+   margin-top: 30px;
+   position: relative;
+   background-image: url(../img/homie.jpg);
+   background-size: 90vw 39vw;
+   background-repeat: no-repeat;
+}
+
+.content::after {
+   /*content: "";
+   background-image: url(../img/home.jpg);
+   display: flex;
+   height: inherit;
+   opacity: 1; -- You can use this when you want opaque background 
+   z-index: -1;
+   */
+
+}
+.content-left {
+   font-family: var(--font1);
+   /*width: 50%;*/
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: black;
+   padding: 25px;
+}
+
+.content-left h1,h3,p{
+   background-color: lightcyan;
+
+}
+
+.content-right {
+   font-family: var(--font1);
+   /*width: 50%;*/
+   display: flex;
+   justify-content: center;
+   padding: 25px;
+}
+
+.content-right img {
+   height: 20vw;
+   border: 10px solid antiquewhite;
+   border-radius: 295px;
+   padding-top: 0px;
+}
+
+.home-articles {
+   /*background-color: red;*/
+   padding-top: 20px;
+   position: relative;
+
+}
+
+.year-box{
+   /*position: absolute;*/
+   /*width: 124px;*/
+   /*height: 148px;*/
+   /*background-color: red;*/
+   top: 100px;
+   position: relative;
+   width: 112px;
+   height: 72px;
+   background-color: white;
+   right: 0px;
+   top: 0px;
+   font-size: 14px;
+   display: flex;
+
+}
+
+.year-box div{
+   margin: 6px 0px;
+}
+
+.home-article {
+   display: flex;
+   margin-top: 21px;
+   padding: 18px;
+
+}
+
+.home-article img{
+   width: 300px;
+}
+
+.home-article-content{
+align-self: center;
+padding: 0px 50px;
+}
+
+.home-article-content a{
+   text-decoration: none; /* this will eliminate the underline*/
+   color: black;
+
+}
+
+.footer {
+   height: 50px;
+   background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   flex-direction: column;
+}
+
+.footer a{
+   color: white;
+} 
